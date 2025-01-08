@@ -1,0 +1,197 @@
+﻿  game.cpp
+C:\Users\Andrei\Desktop\nuj\game.h(31,10): error C3646: 'dino': unknown override specifier
+  (compiling source file 'game.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'game.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,17): error C2065: 'Obstacle': undeclared identifier
+  (compiling source file 'game.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,10): error C2923: 'std::vector': 'Obstacle' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'game.cpp')
+      C:\Users\Andrei\Desktop\nuj\game.h(32,17):
+      see declaration of 'Obstacle'
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,10): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(7,51): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\Andrei\Desktop\nuj\game.cpp(7,37): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\Andrei\Desktop\nuj\game.cpp(9,83): error C2512: 'std::vector': no appropriate default constructor available
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(8,1): error C2614: 'Game': illegal member initialization: 'dino' is not a base or member
+C:\Users\Andrei\Desktop\nuj\game.cpp(46,9): error C2059: syntax error: '.'
+C:\Users\Andrei\Desktop\nuj\game.cpp(47,9): error C2059: syntax error: '.'
+C:\Users\Andrei\Desktop\nuj\game.cpp(48,9): error C2059: syntax error: '.'
+C:\Users\Andrei\Desktop\nuj\game.cpp(49,15): error C2662: 'void std::vector<_Ty,_Alloc>::clear(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(49,5):
+      Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(49,5):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1765,23):
+      see declaration of 'std::vector<_Ty,_Alloc>::clear'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(49,15):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(57,17): error C2275: 'dino': expected an expression instead of a type
+C:\Users\Andrei\Desktop\nuj\game.cpp(59,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1854,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1850,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(59,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1862,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1858,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(59,27):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(92,9): error C2059: syntax error: '.'
+C:\Users\Andrei\Desktop\nuj\game.cpp(99,19): error C2662: 'decltype(auto) std::vector<_Ty,_Alloc>::emplace_back<const float&,float,int,float&>(const float &,float &&,int &&,float &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(99,9):
+      Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(99,9):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(856,33):
+      see declaration of 'std::vector<_Ty,_Alloc>::emplace_back'
+      C:\Users\Andrei\Desktop\nuj\game.cpp(99,19):
+      while trying to match the argument list '(const float, float, int, float)'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(103,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1854,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1850,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(103,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1862,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1858,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(103,27):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(108,33): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1854,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1850,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(108,33): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': no overloaded function has valid conversion for 'this' pointer
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1862,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(1858,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept'
+          C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\Andrei\Desktop\nuj\game.cpp(108,33):
+      while trying to match the argument list '()'
+  
+C:\Users\Andrei\Desktop\nuj\game.cpp(109,17): error C2059: syntax error: '.'
+C:\Users\Andrei\Desktop\nuj\game.cpp(109,88): error C2143: syntax error: missing ';' before '{'
+C:\Users\Andrei\Desktop\nuj\game.cpp(130,17): error C2059: syntax error: '.'
+  main.cpp
+C:\Users\Andrei\Desktop\nuj\game.h(31,10): error C3646: 'dino': unknown override specifier
+  (compiling source file 'main.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,17): error C2065: 'Obstacle': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,10): error C2923: 'std::vector': 'Obstacle' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'main.cpp')
+      C:\Users\Andrei\Desktop\nuj\game.h(32,17):
+      see declaration of 'Obstacle'
+  
+C:\Users\Andrei\Desktop\nuj\game.h(32,10): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\Andrei\Desktop\nuj\main.cpp(5,5): error C3861: 'startGame': identifier not found
+  Generating Code...
